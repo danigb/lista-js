@@ -1,0 +1,27 @@
+{
+  "name": "lista",
+  "version": "0.1.0",
+  "description": "List to array - a javascript list parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/jasmine-node/bin/jasmine-node test/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danigb/listajs.git"
+  },
+  "keywords": [
+    "list",
+    "array",
+    "javascript",
+    "parser"
+  ],
+  "author": "danigb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danigb/listajs/issues"
+  },
+  "devDependencies": {
+    "jasmine-node": "~1.14.5"
+  }
+}
