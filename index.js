@@ -6,7 +6,7 @@ var parenthesize = function(input, list) {
   } else {
     var token = input.shift();
     if (token === undefined) {
-      return list;
+      return list.pop();
     } else if (token === "(") {
       list.push(parenthesize(input, []));
       return parenthesize(input, list);
